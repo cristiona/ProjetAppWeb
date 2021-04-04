@@ -8,6 +8,10 @@ import { AppComponent } from './app.component';
   declarations: [
     AppComponent
   ],
+  exports: [
+    AppComponent
+  ],
+
   imports: [
     BrowserModule,
     AppRoutingModule
