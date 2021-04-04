@@ -1,0 +1,45 @@
+.selectionner{
+  position: relative;
+}
+option{
+  color: royalblue;
+}
+.select select{
+  display: none;
+}
+
+.select-selected{
+  background-color: royalblue;
+}
+.select-selected:after{
+  position: absolute;
+  content: " ";
+  top: 15px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent;
+}
+
+.select-selected.select-arrow-active:after{
+  border-color: transparent transparent #ffffff transparent;
+  top: 10px;
+
+}
+.select-items{
+  position: absolute;
+  background-color: royalblue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.select-hide{
+  display: none;
+}
+
+.select-item div:hover, same-as-selected{
+  background-color: red;
+}

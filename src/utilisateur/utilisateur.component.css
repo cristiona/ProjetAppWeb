@@ -1,0 +1,25 @@
+.container{
+  display: block;
+  }
+
+ul{
+  list-style-type: none;
+}
+.navbar{
+  width: 200px;
+  height: 100vh;
+  padding-top: -50px;
+  margin-right: 500px;
+  margin-top: -20px;
+  margin-left: -10px;
+  margin-bottom: -20px;
+  background: #125699;
+  transition: all 3s;
+  text-align: left;
+  box-shadow: 2px 2px 2px royalblue;
+}
+
+img{
+  position: center;
+  padding-top: 10px;
+}
